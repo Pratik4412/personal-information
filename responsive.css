@@ -1,0 +1,35 @@
+
+/* navbar bg img */
+.container{
+    max-width: 352%;
+    
+}
+.main{
+    flex-direction: column;
+    
+}
+.h1{
+    font-size: 1.8rem !important;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .about img{ 
+         max-width: 400%;
+         max-height: 33vh;
+         
+   }
+ }
+@media only screen and (max-width: 1000px){
+     .container img{ 
+          max-width: 400%;
+          min-width: 113%;
+          
+    }
+  }
+
+@media only screen and (max-width: 10px){
+    .about p{margin-right: -45rem;
+        font-size: 2.5rem;
+    }
+}
